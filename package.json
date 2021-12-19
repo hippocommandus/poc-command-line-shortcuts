@@ -1,17 +1,18 @@
 {
   "name": "command-line-shortcuts",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "POC",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "command-line-shortcuts-say-hello": "./bin/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/souhailmerroun-poc/command-line-shortcuts.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/souhailmerroun-poc/command-line-shortcuts/issues"
   },
